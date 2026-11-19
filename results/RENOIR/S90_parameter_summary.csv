@@ -1,0 +1,11 @@
+﻿method,config,records,avg_psnr_db,avg_ssim,avg_mse,avg_elapsed_ms
+Baseline,NO_FILTER,62,,,,0.105694
+Bilateral,B5_c20_s3,62,,,,2.491435
+Bilateral,B7_c35_s5,62,,,,10.866097
+Bilateral,B9_c50_s7,62,,,,16.845565
+Gaussian,G3_s0.8,62,,,,0.604645
+Gaussian,G5_s1.1,62,,,,0.355984
+Gaussian,G7_s1.5,62,,,,0.385548
+Median,M3,62,,,,0.412387
+Median,M5,62,,,,1.107694
+Median,M7,62,,,,16.448097

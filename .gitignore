@@ -1,0 +1,25 @@
+# Real datasets are downloaded separately; do not upload large or restricted third-party files.
+/datasets/
+/outputs/
+/downloads/
+/tmp/
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+# Raw camera and archive files should not be committed.
+*.zip
+*.rar
+*.7z
+*.mat
+*.dng
+*.raw
+*.arw
+*.cr2
+*.nef
+# Keep curated visuals in assets/comparisons, but block bulky raw dataset images elsewhere.

@@ -1,0 +1,8 @@
+# Install the dependencies of all three experimental pipelines.
+requests>=2.31,<3
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+scikit-image>=0.21,<1
+Pillow>=10,<13
+matplotlib>=3.7,<4
+h5py>=3.10,<4

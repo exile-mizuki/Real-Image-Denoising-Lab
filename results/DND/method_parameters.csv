@@ -1,0 +1,11 @@
+﻿method,config,params,description
+Baseline,NO_FILTER,{},原始输入不处理
+Gaussian,G3_s0.8,"{""k"": 3, ""sigma"": 0.8}",空间高斯滤波
+Gaussian,G5_s1.1,"{""k"": 5, ""sigma"": 1.1}",空间高斯滤波
+Gaussian,G7_s1.5,"{""k"": 7, ""sigma"": 1.5}",空间高斯滤波
+Median,M3,"{""k"": 3}",各通道中值滤波
+Median,M5,"{""k"": 5}",各通道中值滤波
+Median,M7,"{""k"": 7}",各通道中值滤波
+Bilateral,B5_c20_s3,"{""d"": 5, ""color"": 20, ""space"": 3}",结合空间和颜色权重的双边滤波
+Bilateral,B7_c35_s5,"{""d"": 7, ""color"": 35, ""space"": 5}",结合空间和颜色权重的双边滤波
+Bilateral,B9_c50_s7,"{""d"": 9, ""color"": 50, ""space"": 7}",结合空间和颜色权重的双边滤波
